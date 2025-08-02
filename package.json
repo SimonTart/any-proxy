@@ -1,0 +1,17 @@
+{
+  "name": "any-proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy server that fetches content from any URL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["proxy", "http", "node"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
